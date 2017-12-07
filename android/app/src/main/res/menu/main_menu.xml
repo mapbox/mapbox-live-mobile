@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/toggle_circles"
+        android:orderInCategory="100"
+        android:title="toogle room price circles"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/toggle_park_color"
+        android:orderInCategory="100"
+        android:title="toggle park color"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/toggle_hospital_color"
+        android:orderInCategory="100"
+        android:title="toggle hospital color"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/toggle_water_color"
+        android:orderInCategory="100"
+        android:title="toggle water color"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/toggle_large_city_label"
+        android:orderInCategory="100"
+        android:title="toggle large city label"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/toggle_neighbourhood"
+        android:orderInCategory="100"
+        android:title="toggle neighbourhood"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/toggle_font"
+        android:orderInCategory="100"
+        android:title="toggle font"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/toggle_school_visibility"
+        android:orderInCategory="100"
+        android:title="toggle school visibility"
+        app:showAsAction="never" />
+</menu>

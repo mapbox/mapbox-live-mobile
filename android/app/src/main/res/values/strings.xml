@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MobileSDKLiveWebinar</string>
+    <string name="mapbox_account_access_token">PASTE_YOUR_MAPBOX_ACCESS_TOKEN_HERE</string>
+</resources>
