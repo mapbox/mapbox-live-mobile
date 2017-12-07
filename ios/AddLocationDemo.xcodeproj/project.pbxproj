@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ED2BF1C1FD9DF280069A75F /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED2BF1B1FD9DF270069A75F /* Mapbox.framework */; };
+		3ED2BF1D1FD9DF280069A75F /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED2BF1B1FD9DF270069A75F /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3EF467561FCDE69F00001FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF467551FCDE69F00001FAF /* AppDelegate.swift */; };
 		3EF467581FCDE69F00001FAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF467571FCDE69F00001FAF /* ViewController.swift */; };
 		3EF4675B1FCDE69F00001FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF467591FCDE69F00001FAF /* Main.storyboard */; };
 		3EF4675D1FCDE69F00001FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF4675C1FCDE69F00001FAF /* Assets.xcassets */; };
 		3EF467601FCDE69F00001FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF4675E1FCDE69F00001FAF /* LaunchScreen.storyboard */; };
 		3EF4676D1FCE13E400001FAF /* hotels.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 3EF4676C1FCE13E400001FAF /* hotels.geojson */; };
-		9A9F0ADB1FD74B360042431F /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9F0ADA1FD74B360042431F /* Mapbox.framework */; };
-		9A9F0ADC1FD74B360042431F /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9F0ADA1FD74B360042431F /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9A9F0ADD1FD74B360042431F /* Embed Frameworks */ = {
+		3ED2BF1A1FD9DF180069A75F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9A9F0ADC1FD74B360042431F /* Mapbox.framework in Embed Frameworks */,
+				3ED2BF1D1FD9DF280069A75F /* Mapbox.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3ED14FBE1FD7395A00DFDBC1 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		3ED2BF1B1FD9DF270069A75F /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
 		3EF467521FCDE69F00001FAF /* AddLocationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddLocationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF467551FCDE69F00001FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EF467571FCDE69F00001FAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,7 +41,6 @@
 		3EF4675F1FCDE69F00001FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EF467611FCDE69F00001FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EF4676C1FCE13E400001FAF /* hotels.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hotels.geojson; sourceTree = "<group>"; };
-		9A9F0ADA1FD74B360042431F /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9F0ADB1FD74B360042431F /* Mapbox.framework in Frameworks */,
+				3ED2BF1C1FD9DF280069A75F /* Mapbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +58,7 @@
 		3EF467491FCDE69F00001FAF = {
 			isa = PBXGroup;
 			children = (
-				3ED14FBE1FD7395A00DFDBC1 /* Mapbox.framework */,
-				9A9F0ADA1FD74B360042431F /* Mapbox.framework */,
+				3ED2BF1B1FD9DF270069A75F /* Mapbox.framework */,
 				3EF467541FCDE69F00001FAF /* AddLocationDemo */,
 				3EF467531FCDE69F00001FAF /* Products */,
 			);
@@ -98,7 +96,7 @@
 				3EF4674E1FCDE69F00001FAF /* Sources */,
 				3EF4674F1FCDE69F00001FAF /* Frameworks */,
 				3EF467501FCDE69F00001FAF /* Resources */,
-				9A9F0ADD1FD74B360042431F /* Embed Frameworks */,
+				3ED2BF1A1FD9DF180069A75F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

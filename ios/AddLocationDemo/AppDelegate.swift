@@ -6,7 +6,7 @@
 //  Copyright © 2017 Mapbox. All rights reserved.
 //
 
-import Mapbox
+import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
