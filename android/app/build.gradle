@@ -23,7 +23,7 @@ repositories {
 
 dependencies {
 
-    implementation ('com.mapbox.mapboxsdk:mapbox-android-sdk:5.2.0@aar'){
+    implementation ('com.mapbox.mapboxsdk:mapbox-android-sdk:5.2.1@aar'){
         transitive = true }
 }
 
